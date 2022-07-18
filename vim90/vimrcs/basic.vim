@@ -53,8 +53,8 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 try
-    " colorscheme desert
-    colorscheme elflord
+	colorscheme desert
+    " colorscheme elflord
 catch
 endtry
     
@@ -175,7 +175,7 @@ cnoremap w w !sudo tee % > /dev/null
 
 "++++++++++++++++++++++++++++++ normal mode +++++++++++++++++++++++++++++++++++++
 " 给函数添加说明
-nnoremap <Leader>m "xyiwO/**<CR>*function:<Tab><C-r>x<CR>*author:<Tab><Tab><wanxiangjun@tp-link.com.cn><CR>*description:<CR>*return:<CR>**/<Esc>kk$
+nnoremap <Leader>m "xyiwO/**<CR>*function:<Tab><C-r>x<CR>*description:<CR>*return:<CR>**/<Esc>kk$
 
 " 保存文件
 nnoremap s :wa<CR>
@@ -184,7 +184,6 @@ nnoremap s :wa<CR>
 nnoremap 0 ^
 
 " * # 高亮但不跳转
-nnoremap * mmHmt<C-o>*`tzt`m
 nnoremap # mmHmt<C-o>*`tzt`m
 
 " 跳转

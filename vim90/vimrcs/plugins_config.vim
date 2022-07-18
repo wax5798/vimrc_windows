@@ -21,11 +21,6 @@ if executable('ag')
 endif
 " mileszs/ack.vim END
 
-" amix/vim-zenroom2 BEGIN
-" vim-zenroom2: A Vim extension that emulates iA Writer environment when editing Markdown, reStructuredText or text files 
-Plugin 'amix/vim-zenroom2'
-" amix/vim-zenroom2 END
-
 " scrooloose/nerdtree BEGIN
 " nerdtree: A tree explorer plugin for vim
 Plugin 'scrooloose/nerdtree'
