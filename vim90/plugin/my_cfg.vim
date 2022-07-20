@@ -5,8 +5,8 @@ if exists("g:cfg_loaded")
 endif
 let g:cfg_loaded = 1
 
-let s:cache_pre = expand("$VIM/_cache/")
-let g:cache_pre = expand("$VIM/_cache/")
+let s:cache_pre = expand("$HOME/.vim_cache/")
+let g:cache_pre = expand("$HOME/.vim_cache/")
 let s:cur_dir = getcwd()
 
 function s:path_to_md5(path)

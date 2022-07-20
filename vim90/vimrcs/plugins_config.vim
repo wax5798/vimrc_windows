@@ -13,9 +13,9 @@ Plugin 'VundleVim/Vundle.vim'
 " ack.vim: a search tool
 " using 'apt-get install silversearcher-ag' to install ag or 'apt-get install ack-grep' to install ack
 Plugin 'mileszs/ack.vim'
-nnoremap <F4> viw"zy:Ack! '\b<C-r>z\b' ./ --ignore "*.txt"
-vnoremap <F4> "zy:Ack! '<C-r>z' ./ --ignore "*.txt"
-cnoremap <F4> Ack! -i '' ./<LEFT><LEFT><LEFT><LEFT>
+nnoremap <F4> viw"zy:Ack! "\b<C-r>z\b" ./ --ignore "*.txt"
+vnoremap <F4> "zy:Ack! "<C-r>z" ./ --ignore "*.txt"
+cnoremap <F4> Ack! -i "" ./<LEFT><LEFT><LEFT><LEFT>
 if executable('ag')
     let g:ackprg = 'ag -a -s --nopager --nocolor --nogroup --column'
 endif
